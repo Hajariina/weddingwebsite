@@ -11,6 +11,14 @@
     
     <!-- favicon icon -->
     <link href="../assets/images/favicon.png" rel="favicon icon">
+
+     <!-- header van theperfectwedding.nl / Dit moet ik nog veranderen of toestemming vragen bij eigenaar -->
+
+    <link href="https://cdn.theperfectwedding.nl/resources/internal/css/main.css?v=73930920aa1fc465c2e99a9754bdbd7c" rel="stylesheet" type="text/css">
+    <link href="https://cdn.theperfectwedding.nl/resources/external/flickity/dist/flickity.min.css?v=73930920aa1fc465c2e99a9754bdbd7c" media="screen" rel="stylesheet" type="text/css">
+    <link href="https://cdn.theperfectwedding.nl/resources/internal/css/responsive.css?v=73930920aa1fc465c2e99a9754bdbd7c" media="screen" rel="stylesheet" type="text/css">
+    <link href="https://www.theperfectwedding.nl/" rel="canonical">
+    <link href="http://feed.theperfectwedding.nl/theperfectwedding" rel="alternate" title="ThePerfectWedding.nl Feed" type="application/rss+xml">
     
     <!-- CSS Stylesheet -->
     <link href="css/bootstrap.css" rel="stylesheet"><!-- bootstrap css -->
@@ -28,108 +36,757 @@
 </head>
 <body class="inner-page">
     <div class="page">
-    <header id="header">
-            <div class="quck-link">
-                <div class="container">
-                    <div class="mail"><a href="MailTo:info@eventplanning.com"><span class="icon icon-envelope"></span>info@hajarmokhtafa.com</a></div>
-                    <div class="right-link">
-                        <ul style="width: 555px;">
-                            <li><a href="register.html"><span class="icon icon-multi-user"></span>Wordt een leverancier</a></li>
-                            <li><a href="#"><span class="icon icon-invite-friend"></span>Nodig vrienden uit</a></li>
-                            <li class="registration"><a href="../mijnaccount.html">Aanmelden</a></li>
-                            <li><a href="../inloggen.html">Inloggen</a></li>
-                        </ul>
-                    </div>
-                </div>    
-            </div>
-            <nav id="nav-main">
-                <div class="container">
-                    <div class="navbar navbar-inverse">
-                        <div class="navbar-header">
-                            <a href="../index3.html" class="navbar-brand"><img src="../img/LoveOurWeddingLogo-copy.jpeg" alt="" style="width: 197px; height: 69px;"></a>
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="icon1-barMenu"></span>
-                                <span class="icon1-barMenu"></span>
-                                <span class="icon1-barMenu"></span>
-                            </button>
-                            
-                        </div>
-                        <div class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li class="single-col">
-                                    <a href="index.html">Home</a>
-                                    
-                                </li>
-                                <li><a href="aboutUs.html">Over ons</a></li>
-                                <li>
-                                    <a href="services.html">Trouwbedrijven<span class="icon icon-arrow-down"></span></a>
-                                    <ul>
-                                        <li><a href="services.html">Caterers</a></li>
-                                        <li><a href="services.html">Visagisten</a></li>
-                                        <li><a href="services.html">Decoratie</a></li>
-                                        <li><a href="services.html">Taarten</a></li>
-                                        <li><a href="services.html">Wedding Planner</a></li>
-                                        <li><a href="services.html">Cadeaus</a></li>
-                                        <li><a href="services.html">Make-up en haar</a></li>
-                                        <li><a href="services.html">Entertainment</a></li>
-                                        <li><a href="services.html">Photografen</a></li>
-                                        <li><a href="services.html">DJ</a></li>
-                                        <li><a href="services.html">Huwelijksreizen</a></li>
-                                    </ul>
-                                </li>
-                                <li class="single-col">
-                                    <a href="#">Hajar</a>
-                                </li>
-                                <li><a href="faq.html">FAQ’s </a></li>
-                                <li><a href="contact.html">Contact us</a></li>
-                            </ul>
-                            <div class="search-box">
-                                <div class="search-icon"><span class="icon icon-search"></span></div>
-                                <div class="search-view">
-                                    <div class="input-box">
-                                        <form>
-                                            <input type="text" placeholder="Search here">
-                                            <input type="submit" value="" >
-                                        </form>
-                                    </div>
-                                </div>
+     <!-- header -->
+    <header class="pos-abs bg-paint" style="height: 110px; padding-bottom: 0px; padding-top: 0px;">
+        <input class="hide" id="toggle-nav" type="checkbox"> <label for="toggle-nav"><i class="icon-reorder icon-2x br" id="toggle-nav-icon"></i></label>
+        <div style=" padding-bottom: 0px; margin-bottom: 0px;" class="nav-top">
+           <img src=img/LoveOurWeddingLogo-copy.jpeg style="max-height: 80px; max-width: 120px; margin-left: 30px;">
+            <ul class="inline-list pull-right no-m" style="line-height: 2.5;">
+                <li class="rate hide-for-small pos-rel" style="padding-bottom: 20px; border-left: none;">
+                    <a class="text-energize" href="listing/register.html">Wordt een leverancier</a>
+                </li>
+                <li class="blog" style="padding-bottom: 20px; border-left: none;">
+                    <a href="listing/contact.html">Contact</a>
+                </li>
+                 <li class="login" style="padding-bottom: 20px; border-left: none;">
+                    <a href="inloggen.html"><i class="icon-user"></i> Inloggen</a>
+                </li>
+                <!-- <li class="search" data-nav-top-search="">
+                    <form action="https://www.theperfectwedding.nl/search/">
+                        <button name="sa" type="submit"><span class="icon-search"></span></button> <input autocomplete="off" id="q" name="q" placeholder="Zoeken" type="text">
+                    </form>
+                </li> -->
+                <li class="login" style="padding-bottom: 20px; border-left: none;">
+                    <a href="mijnaccount.html"><i class="icon-user"></i> Aanmelden</a>
+                </li>
+            </ul>
+        </div>
+        <nav class="nav-main group" id="nav">
+            <ul style="padding-left: 150px; line-height: 1.2;">
+                <li class="nav-main__item">
+                    <input class="hide" id="toggle-subnav-trouwlocatie-feest" type="checkbox"> <label class="toggle-subnav expand" for="toggle-subnav-trouwlocatie-feest"></label> <a class="nav-main__link" data-nav-main-link="" href="/trouwlocatie-feest">Locatie &amp; Feest</a>
+                    <div class="nav-main-sub">
+                        <div class="row pos-rel">
+                            <div class="left hide-for-small hide-for-medium nav-main-sub__img nav-main-sub__img--trouwlocatie-feest"></div>
+                            <div class="ten columns right">
+                                <ul class="nav-main-sub__list">
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-17" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/trouw-feestlocaties">Trouw- &amp; Feestlocaties</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouw-feestlocaties/bedrijven">Trouwlocaties vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link text-energize text-shadow-light" href="/trouw-feestlocaties/bedrijven#deals"><strong>Special deals</strong></a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouw-feestlocaties/artikelen">Artikelen over Trouw- &amp; Feestlocaties</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-13" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/muziek">Muziek</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/muziek/bedrijven">Bands &amp; DJ's vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/muziek/artikelen">Artikelen over Muziek</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-9" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/entertainment">Entertainment</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/entertainment/bedrijven">Entertainmentbedrijven vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/entertainment/artikelen">Artikelen over Entertainment</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-6" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="listing/search-result.html">Catering</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/catering/bedrijven">Cateraars vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/catering/fotos">Inspiratiefoto's Catering</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/catering/artikelen">Artikelen over Catering</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-21" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/verhuur">Verhuur</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/verhuur/bedrijven">Verhuurbedrijven vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/verhuur/artikelen">Artikelen over Verhuur</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-            </nav>
-        </header>
-        <!-- //end of header -->
+                </li>
+                <li class="nav-main__item">
+                    <input class="hide" id="toggle-subnav-bruidsmode-uiterlijk" type="checkbox"> <label class="toggle-subnav expand" for="toggle-subnav-bruidsmode-uiterlijk"></label> <a class="nav-main__link" data-nav-main-link="" href="/bruidsmode-uiterlijk">Mode &amp; Uiterlijk</a>
+                    <div class="nav-main-sub">
+                        <div class="row pos-rel">
+                            <div class="left hide-for-small hide-for-medium nav-main-sub__img nav-main-sub__img--bruidsmode-uiterlijk"></div>
+                            <div class="ten columns right">
+                                <ul class="nav-main-sub__list">
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-70" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/trouwjurken">Trouwjurken</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwjurken/bedrijven">Bruidsmodewinkels vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwjurken/fotos">Inspiratiefoto's Trouwjurken</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwjurken/merken">Trouwjurkmerken</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwjurken/artikelen">Artikelen over Trouwjurken</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-78" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/bruidsschoenen">Bruidsschoenen</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsschoenen/bedrijven">Schoenenwinkels vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsschoenen/fotos">Inspiratiefoto's Bruidsschoenen</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsschoenen/merken">Bruidsschoenenmerken</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsschoenen/artikelen">Artikelen over Bruidsschoenen</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-76" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/bruidslingerie">Bruidslingerie</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidslingerie/bedrijven">Lingeriewinkels vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidslingerie/fotos">Inspiratiefoto's Bruidslingerie</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidslingerie/merken">Bruidslingeriemerken</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidslingerie/artikelen">Artikelen over Bruidslingerie</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-88" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/bruidsaccessoires">Bruidsaccessoires</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsaccessoires/bedrijven">Accessoirewinkels vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsaccessoires/fotos">Inspiratiefoto's Bruidsaccessoires</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsaccessoires/merken">Bruidsaccessoiremerken</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsaccessoires/artikelen">Artikelen over Bruidsaccessoires</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-18" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/trouwpak">Trouwpak</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwpak/bedrijven">Herenmodezaken vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwpak/fotos">Inspiratiefoto's Trouwpakken</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwpak/merken">Trouwpakmerken</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwpak/artikelen">Artikelen over Trouwpakken</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-77" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/bruidsmake-up">Bruidsmake-up</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsmake-up/bedrijven">Visagist vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsmake-up/fotos">Inspiratiefoto's Bruidsmake-up</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsmake-up/artikelen">Artikelen over Bruidsmake-up</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-71" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/bruidskapsels">Bruidskapsels</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidskapsels/bedrijven">Kappers vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidskapsels/fotos">Inspiratiefoto's Bruidskapsels</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidskapsels/artikelen">Artikelen over Bruidskapsels</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-1153" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/beauty">Beauty</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/beauty/bedrijven">Beautysalons vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/beauty/artikelen">Artikelen over Beauty</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-main__item">
+                    <input class="hide" id="toggle-subnav-benodigdheden" type="checkbox"> <label class="toggle-subnav expand" for="toggle-subnav-benodigdheden"></label> <a class="nav-main__link" data-nav-main-link="" href="/benodigdheden">Benodigdheden</a>
+                    <div class="nav-main-sub">
+                        <div class="row pos-rel">
+                            <div class="left hide-for-small hide-for-medium nav-main-sub__img nav-main-sub__img--benodigdheden"></div>
+                            <div class="ten columns right">
+                                <ul class="nav-main-sub__list">
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-19" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/trouwringen">Trouwringen</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwringen/bedrijven">Juweliers vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwringen/fotos">Inspiratiefoto's Trouwringen</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwringen/merken">Trouwringmerken</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwringen/artikelen">Artikelen over Trouwringen</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-5" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/bruidstaarten">Bruidstaarten</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidstaarten/bedrijven">Patissiers vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidstaarten/fotos">Inspiratiefoto's Bruidstaarten</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidstaarten/artikelen">Artikelen over Bruidstaarten</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-16" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/trouwkaarten">Trouwkaarten</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwkaarten/bedrijven">Drukkerijen vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwkaarten/fotos">Inspiratiefoto's Trouwkaarten</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwkaarten/artikelen">Artikelen over Trouwkaarten</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-2" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/bruidsboeket">Bruidsboeket</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsboeket/bedrijven">Bloemisten vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsboeket/fotos">Inspiratiefoto's Bruidsboeketten</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsboeket/artikelen">Artikelen over Bruidsboeketten</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-20" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/trouwauto">Trouwauto</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwauto/bedrijven">Trouwautoverhuur vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwauto/fotos">Inspiratiefoto's trouwauto's</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwauto/artikelen">Artikelen over Trouwauto's</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-8" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/decoratie">Decoratie</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/decoratie/bedrijven">Stylisten en decoratiewinkels vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/decoratie/fotos">Inspiratiefoto's Decoratie</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/decoratie/artikelen">Artikelen over Decoratie</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-10" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/huwelijksbedankjes">Huwelijksbedankjes</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/huwelijksbedankjes/bedrijven">Bedankjeswinkels vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/huwelijksbedankjes/fotos">Inspiratiefoto's Huwelijksbedankjes</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/huwelijksbedankjes/artikelen">Artikelen over Huwelijksbedankjes</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-866" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/huwelijkscadeau">Huwelijkscadeau</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/huwelijkscadeau/bedrijven">Cadeauwinkels vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/huwelijkscadeau/artikelen">Artikelen over Huwelijkscadeau's</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-main__item">
+                    <input class="hide" id="toggle-subnav-foto-video" type="checkbox"> <label class="toggle-subnav expand" for="toggle-subnav-foto-video"></label> <a class="nav-main__link" data-nav-main-link="" href="/foto-video">Foto &amp; Video</a>
+                    <div class="nav-main-sub">
+                        <div class="row pos-rel">
+                            <div class="left hide-for-small hide-for-medium nav-main-sub__img nav-main-sub__img--foto-video"></div>
+                            <div class="ten columns right">
+                                <ul class="nav-main-sub__list">
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-15" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/trouwfotograaf">Trouwfotograaf</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwfotograaf/bedrijven">Trouwfotografen vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwfotograaf/artikelen">Artikelen over Trouwfotograaf</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-22" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/videograaf">Videograaf</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/videograaf/bedrijven">Videografen vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/videograaf/artikelen">Artikelen over Videograaf</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-880" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/real-weddings">Real Weddings</a>
+                                        <ul class="nav-main-sub__sub-list"></ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-1171" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/tv">tv</a>
+                                        <ul class="nav-main-sub__sub-list"></ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-main__item">
+                    <input class="hide" id="toggle-subnav-trouwdag" type="checkbox"> <label class="toggle-subnav expand" for="toggle-subnav-trouwdag"></label> <a class="nav-main__link" data-nav-main-link="" href="/trouwdag">Trouwdag</a>
+                    <div class="nav-main-sub">
+                        <div class="row pos-rel">
+                            <div class="left hide-for-small hide-for-medium nav-main-sub__img nav-main-sub__img--trouwdag"></div>
+                            <div class="ten columns right">
+                                <ul class="nav-main-sub__list">
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-64" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/verloving">Verloving</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/verloving/artikelen">Artikelen over Verloving</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-727" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/vrijgezellenfeest">Vrijgezellenfeest</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/vrijgezellenfeest/bedrijven">Bedrijven vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/vrijgezellenfeest/artikelen">Artikelen over Vrijgezellenfeest</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-65" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/ceremonie">Ceremonie</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/ceremonie/bedrijven">Ceremoniesprekers vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/ceremonie/artikelen">Artikelen over Ceremonie</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-66" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/receptie">Receptie</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/receptie/artikelen">Artikelen over Receptie</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-67" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/diner">Diner</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/diner/artikelen">Artikelen over Diner</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-729" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/trouwfeest">Trouwfeest</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwfeest/artikelen">Artikelen over Trouwfeest</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-68" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/huwelijksnacht">Huwelijksnacht</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/huwelijksnacht/bedrijven">Bruidssuites vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/huwelijksnacht/artikelen">Artikelen over Huwelijksnacht</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-11" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/huwelijksreis">Huwelijksreis</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/huwelijksreis/bedrijven">Reisbureaus vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/huwelijksreis/artikelen">Artikelen over Huwelijksreis</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-801" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/tradities">Tradities</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/tradities/artikelen">Artikelen over Tradities</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-main__item">
+                    <input class="hide" id="toggle-subnav-planning" type="checkbox"> <label class="toggle-subnav expand" for="toggle-subnav-planning"></label> <a class="nav-main__link" data-nav-main-link="" href="/planning">Planning</a>
+                    <div class="nav-main-sub">
+                        <div class="row pos-rel">
+                            <div class="left hide-for-small hide-for-medium nav-main-sub__img nav-main-sub__img--planning"></div>
+                            <div class="ten columns right">
+                                <ul class="nav-main-sub__list">
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-23" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/weddingplanner">Weddingplanner</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/weddingplanner/bedrijven">Weddingplanner vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/weddingplanner/artikelen">Artikelen over Weddingplanners</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-14" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/trouwen-buitenland">Trouwen in het buitenland</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwen-buitenland/bedrijven">Leveranciers vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwen-buitenland/artikelen">Artikelen over Trouwen in het buitenland</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-985" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/bruiloftverzekering">Bruiloftverzekering</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruiloftverzekering/bedrijven">Verzekeraars vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruiloftverzekering/artikelen">Artikelen over Verzekering</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-744" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/trouwplanning">Trouwplanning</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwplanning/artikelen">Artikelen over Trouwplanning</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-745" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/themabruiloft">Themabruiloft</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/themabruiloft/artikelen">Artikelen over Themabruiloft</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-73" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/praktische-zaken">Praktische Zaken</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/praktische-zaken/artikelen">Artikelen over Praktische zaken</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-74" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/kosten-trouwen">Kosten Trouwen</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/kosten-trouwen/artikelen">Artikelen over Kosten trouwen</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-75" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/gastenlijst">Gastenlijst</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/gastenlijst/artikelen">Artikelen over Gastenlijst</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-main__item">
+                    <input class="hide" id="toggle-subnav-personen" type="checkbox"> <label class="toggle-subnav expand" for="toggle-subnav-personen"></label> <a class="nav-main__link" data-nav-main-link="" href="/personen">Personen</a>
+                    <div class="nav-main-sub">
+                        <div class="row pos-rel">
+                            <div class="left hide-for-small hide-for-medium nav-main-sub__img nav-main-sub__img--personen"></div>
+                            <div class="ten columns right">
+                                <ul class="nav-main-sub__list">
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-732" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/trouwambtenaar">Trouwambtenaar</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwambtenaar/bedrijven">Trouwambtenaar vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/trouwambtenaar/artikelen">Artikelen over Trouwambtenaar</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-12" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/kinderen">Kinderen</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/kinderen/bedrijven">Kindgerelateerde leveranciers vinden</a>
+                                            </li>
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/kinderen/artikelen">Artikelen over Kinderen</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-80" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/bruid">Bruid</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruid/artikelen">Artikelen over Bruid</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-867" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/bruidsmeisjes">Bruidsmeisjes</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidsmeisjes/artikelen">Artikelen over Bruidsmeisjes</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-81" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/bruidegom">Bruidegom</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/bruidegom/artikelen">Artikelen over Bruidegom</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-730" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/getuige">Getuige</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/getuige/artikelen">Artikelen over Getuige</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-750" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/gast">Gast</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/gast/artikelen">Artikelen over Gast</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-83" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/moeder">Moeder</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/moeder/artikelen">Artikelen over Moeder</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-main-sub__item">
+                                        <span class="nav-main-sub__icon"><svg>
+                                        <use xlink:href="/resources/internal/images/svg.svg#category-icon-82" xmlns:xlink="http://www.w3.org/1999/xlink"></use><svg> </svg></svg></span> <a class="nav-main-sub__link" href="/ceremoniemeester">Ceremoniemeester</a>
+                                        <ul class="nav-main-sub__sub-list">
+                                            <li class="nav-main-sub__sub-item">
+                                                <a class="nav-main-sub__sub-link" href="/ceremoniemeester/artikelen">Artikelen over Ceremoniemeester</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+               
+               <!--  <li class="nav-main__item">
+                    <a class="nav-main__link" data-menu-real-wedding="" href="/real-weddings">Takhitas</a>
+                </li> -->
+            </ul>
+        </nav>
+    </header>
+<div class="wideheader" style="margin-bottom: 0;">
 
-        <!-- refine result header.  Not sure if this will be included in the final version. -->
-        <div class="searchFilter-main">
-            <section class="searchFormTop">
-                <div class="container">
-                    <div class="searchCenter">
-                        <div class="refineCenter">
-                            <span class="icon icon-filter"></span>
-                            <span>Refine Results</span> 
-                        </div>
-                        <div class="searchFilter">
-                            <div class="input-box">
-                                <div class="icon icon-grid-view"></div>
-                                <input type="text" placeholder="Ik ben opzoek naar...">
-                            </div>
-                            <div class="input-box searchlocation">
-                                <div class="icon icon-location-1"></div>
-                                <input type="text" placeholder="Locatie">
-                            </div>
-                            <div class="input-box date">
-                                <div class="icon icon-calander-month"></div>
-                                <input type="text" placeholder="23/04/2017" id="datepicker2">
-                            </div>
-                            <input type="submit" value="Search" class="btn">
-                        </div>
-                    </div>
+    <div data-lazy="" data-original="https://cdn.theperfectwedding.nl/uploads/2048/2048_feelgoodtentevent-kimvandenbroekfotografie-57714804135874784.jpg" class="img-bg" style="display: table-row; background-image: url(&quot;https://cdn.theperfectwedding.nl/uploads/2048/2048_feelgoodtentevent-kimvandenbroekfotografie-57714804135874784.jpg&quot;);">
+
+                    <div class="row no-ml">
+                <div class="eight columns text-hand text-big xl-six handheader no-ml text-shadow-light text-lineheight-s ptl rotate-5 plm m-pl s-pls s-prm pbm">
+                    <h3 class="text-hand-m">
+                                            </h3>
+                    <h1 class="ptb m-ptl text-hand-xl">
+                        Trouwlocatie &amp; Feestzalen                    </h1>
+                    <h3 class="text-hand-m text-lineheight-m">
+                                            </h3>
                 </div>
-            </section>
+            </div>
+
+    </div>
+
+</div>
             <section class="content">
-                <div class="container">
+                <div class="container" style="padding-top: 0;">
                     <div class="venues-view">
                         <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-12">
@@ -138,13 +795,6 @@
                                         <div class="search-icon"><div class="icon icon-search"></div></div>
                                         <input type="text" placeholder="Zoek op naam">
                                     </div>
-
-
-
-
-
-
-                                    <!--  PLEASE LOOK HERE -->
 
 
                                     <!-- dropdown country -->
@@ -157,6 +807,7 @@
                                                 <select name="country_id" id="setUp_select" tabindex="1" >
                                                     <option>Nederland</option>
                                                     <option>Belgie</option>
+                                                    <option>Alle landen</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -169,23 +820,25 @@
                                             </div>
                                            <div class="select-box">
                                                 <select name="country_id" id="setUp_select2" tabindex="2" >
-                                                    <option value="0">Drenthe</option>
-                                                    <option value="1">Flevoland</option>
-                                                    <option value="3">Friesland</option>
-                                                    <option value="4">Flevoland</option>
-                                                    <option value="5">Flevoland</option>
-                                                    <option value="6">Flevoland</option>
-                                                    <option value="7">Flevoland</option>
-                                                    <option value="8">Flevoland</option>
+                                                    <option value="0">Alle provincies</option>
+                                                    <option value="1">Drenthe</option>
+                                                    <option value="3">Flevoland</option>
+                                                    <option value="4">Friesland</option>
+                                                    <option value="5">Gelderland</option>
+                                                    <option value="6">Groningen</option>
+                                                    <option value="7">Limburg</option>
+                                                    <option value="8">Noord-Brabant</option>
+                                                    <option value="9">Overijssel</option>
+                                                    <option value="9">Utrecht</option>
+                                                    <option value="10">Zeeland</option>
+                                                    <option value="11">Zuid-Holland</option>
                                                 </select>
                                             </div>
                                         </div>
                                     </div>
 
 
-                                    <!--  PLEASE LOOK UP -->
-
-                                    <!-- Radio buttons -->
+                                    
 
                                     <div class="filter-view">
                                         <div class="filter-block">
@@ -224,6 +877,59 @@
                                         </div>
                                     </div>
 
+
+
+                                    <!--  Second option menu -->
+
+                                    <!-- Radio buttons -->
+
+                                    <div class="filter-view">
+                                        <div class="filter-block">
+                                            <div class="title">
+                                                <h2>Keuze personeel</h2>
+                                            </div>
+                                            <form action="/action_page.php" style="margin-left: 20px;">
+                                              <input type="radio" name="gender" value="male" style="-webkit-appearance: radio;"> Vrouwen alleen mogelijk<br>
+                                              <input type="radio" name="gender" value="female" style="-webkit-appearance: radio;"> Mannen alleen mogelijk<br>
+                                              <input type="radio" name="gender" value="other" style="-webkit-appearance: radio;"> Niet belangrijk<br>  
+                                              <!-- <input type="submit" value="Submit"> -->
+                                            </form>
+                                        </div>
+                                        <div class="filter-block">
+                                            <div class="title">
+                                                <h2>Faciliteiten</h2>
+                                                <!-- <div class="reste-filter">
+                                                    <a href="#"><span class="icon icon-reset"></span>Reset</a>
+                                                </div> -->
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-27"><input type="checkbox" name="sample-checkbox-01" id="checkbox-27" value="1">Airconditioning</label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-28"><input type="checkbox" name="sample-checkbox-01" id="checkbox-28" value="1"> Bruidssuite</label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-29"><input type="checkbox" name="sample-checkbox-01" id="checkbox-29" value="1"> Geluidsinstallatie </label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-30"><input type="checkbox" name="sample-checkbox-01" id="checkbox-30" value="1"> Gebedsruimte aanwezig</label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-31"><input type="checkbox" name="sample-checkbox-01" id="checkbox-31" value="1">  Parkeren</label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-32"><input type="checkbox" name="sample-checkbox-01" id="checkbox-32" value="1"> Lift</label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-33"><input type="checkbox" name="sample-checkbox-01" id="checkbox-33" value="1">  Wifi</label>
+                                            </div>
+                                            <div class="check-slide">
+                                                <label class="label_check" for="checkbox-34"><input type="checkbox" name="sample-checkbox-01" id="checkbox-34" value="1">  Niet belangrijk</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                     <div class="left-link">
                                         <h2>Andere bekeken ook...</h2>
                                         <ul>
@@ -258,35 +964,37 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        
                                     </div>
+
+
+                                    <!--  Eerste leverancier -->
                                     <div class="venues-slide first">
-                                        <div class="img"><img src="images/property-img/huisterduin.jpeg" alt="" style="height: 260px; width: 260px;"></div>
+                                        <div class="img"><img src="images/property-img/huisterduin.jpeg" alt="" style="height: 210px; width: 260px;"></div>
                                         <div class="text">
                                             <h3>Huis ter Duin</h3>
                                             <div class="address">Huis ter Duinstraat 1 - Noordwijk, Nederland</div>
-                                            <div class="reviews">3.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div>
+                                           <!--  <div class="reviews">3.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div> -->
                                             <div class="outher-info">
-                                                <div class="info-slide first">
+                                                <div class="info-slide first" style="padding-right: 25px;">
                                                     <label>Seating Capacity</label>
                                                     <span>20 - 160</span>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Vanaf Prijzen</label>
-                                                    <span>$ 1000 <small>(Onwards)</small></span>
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Prijzen</label>
+                                                    <span>$ 1000 <small>(Vanaf)</small></span>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Hotel Star Rating</label>
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Onze waardering</label>
                                                     <div class="star" style="width: 105px;">
                                                         <div class="fill" style="width:61%;"></div>
                                                     </div>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Min. Booking Amount</label>
-                                                    <span>$ 5000 <small>(onwards)</small></span>
-                                                </div>
+                                                  <div class="button" style="display: inline-block; padding-left: 25px; padding-top: 5px; background: none;">
+                                                <a href="#" class="btn">Meer info</a>
+                                                
                                             </div>
-                                            <div class="outher-link">
+                                            </div>
+                                            <div class="outher-link" style="margin-bottom: 30px;">
                                                 <ul>
                                                     <li><a href="#"><span class="icon icon-calander-check"></span>Bekijk beschikbaarheid</a></li>
                                                     <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal1"><span class="icon icon-phone"></span>Contact Vendor</a></li>
@@ -294,756 +1002,230 @@
                                                     <li><a href="#"><span class="icon icon-location-1"></span>Google Maps</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="button">
-                                                <a href="#" class="btn">Book Now</a>
-                                                <a href="javascript:;" class="btn gray">View Details <span class="icon icon-arrow-down"></span></a>
-                                            </div>
-                                        </div>
-                                        <div class="amenities-view">
-                                            <h2>All Amenities :</h2>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-tea"></div>
-                                                <span>Coffee Shop</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-wifi"></div>
-                                                <span>Wifi</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-parking"></div>
-                                                <span>Parking</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-airport-shuttle"></div>
-                                                <span>Airport Shuttle</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-bar"></div>
-                                                <span>Bar</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-currency-xchg"></div>
-                                                <span>Currency Exchange</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-bag"></div>
-                                                <span>Business Centre</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-road-guide"></div>
-                                                <span>Guide Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-yoga"></div>
-                                                <span>Yoga Centre</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-ayurved"></div>
-                                                <span>Ayurveda Centre</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-payment"></div>
-                                                <span>Payment Mode</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-ac"></div>
-                                                <span>A/C</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-handicape"></div>
-                                                <span>Handicap Facilities</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-doctor"></div>
-                                                <span>Doctor on Call</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-meeting"></div>
-                                                <span>Conference Hall</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-apple"></div>
-                                                <span>Health Club</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-gym"></div>
-                                                <span>Gym</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-flower"></div>
-                                                <span>Florist on Request</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-swimming"></div>
-                                                <span>Swimming Pool</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-spoon"></div>
-                                                <span>Restaurant</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-massage-center"></div>
-                                                <span>Massage Centre</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-steam-bath"></div>
-                                                <span>Steam Sauna</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-shirt"></div>
-                                                <span>Laundry Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-spa"></div>
-                                                <span>Spa</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-beauty-saloon"></div>
-                                                <span>Beauty Salon</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-sun-bed"></div>
-                                                <span>Sun Beds</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-room-service"></div>
-                                                <span>Room Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-taxi"></div>
-                                                <span>Taxi Service</span>
-                                            </div>
-                                        </div>
-                                        <div class="modal fade modal-vcenter" id="contactModal1" tabindex="-1" role="dialog">
-                                            <div class="modal-dialog contactvendor-popup" role="document">
-                                                <div class="modal-content">
-                                                    <div class="close-icon" aria-label="Close" data-dismiss="modal" ><img src="images/close-icon.png" alt=""></div>
-                                                    <h1>Mariom Banquet</h1>
-                                                    <div class="note">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
-                                                    <div class="row">   
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="First Name">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Last Name ">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Email ID">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Phone Number">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="input-slide">
-                                                                <textarea placeholder="Message"></textarea>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="submit-slide">
-                                                                <input type="submit" value="Send" class="btn">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="venues-slide">
-                                        <div class="img"><img src="images/property-img/HL_kingdeluxe01_386x310_FitToBoxSmallDimension_Center.jpeg" alt="" style="height: 260px; width: 260px;"></div>
+                                        </div>   
+
+                                        <!--  Tweede leverancier --> 
+                                        <div class="venues-slide first">
+                                        <div class="img"><img src="images/property-img/huisterduin.jpeg" alt="" style="height: 210px; width: 260px;"></div>
                                         <div class="text">
-                                            <h3>Hilton Amsterdam</h3>
-                                            <div class="address">Hiltonstraat 12 - Amsterdam, Nederland</div>
-                                            <div class="reviews">3.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div>
+                                            <h3>Huis ter Duin</h3>
+                                            <div class="address">Huis ter Duinstraat 1 - Noordwijk, Nederland</div>
+                                           <!--  <div class="reviews">3.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div> -->
                                             <div class="outher-info">
-                                                <div class="info-slide first">
+                                                <div class="info-slide first" style="padding-right: 25px;">
                                                     <label>Seating Capacity</label>
                                                     <span>20 - 160</span>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Price Range</label>
-                                                    <span>$ 5100 <small>(Onwards)</small></span>
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Prijzen</label>
+                                                    <span>$ 1000 <small>(Vanaf)</small></span>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Hotel Star Rating</label>
-                                                    <div class="star">
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Onze waardering</label>
+                                                    <div class="star" style="width: 105px;">
                                                         <div class="fill" style="width:61%;"></div>
                                                     </div>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Min. Booking Amount</label>
-                                                    <span>$ 1000 <small>(onwards)</small></span>
-                                                </div>
+                                                  <div class="button" style="display: inline-block; padding-left: 25px; padding-top: 5px; background: none;">
+                                                <a href="#" class="btn">Meer info</a>
+                                                
                                             </div>
-                                            <div class="outher-link">
+                                            </div>
+                                            <div class="outher-link" style="margin-bottom: 30px;">
                                                 <ul>
-                                                    <li><a href="#"><span class="icon icon-calander-check"></span>Check Availability</a></li>
-                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal2"><span class="icon icon-phone"></span>Contact Vendor</a></li>
-                                                    <li><a href="#"><span class="icon icon-heart-filled"></span>Add to Wishlist</a></li>
-                                                    <li><a href="#"><span class="icon icon-location-1"></span>See on Map</a></li>
+                                                    <li><a href="#"><span class="icon icon-calander-check"></span>Bekijk beschikbaarheid</a></li>
+                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal1"><span class="icon icon-phone"></span>Contact Vendor</a></li>
+                                                    <li><a href="#"><span class="icon icon-heart"></span>Mijn Favoriet</a></li>
+                                                    <li style="padding-right: 17px;"><a href="#"><span class="icon icon-location-1"></span>Google Maps</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="button">
-                                                <a href="#" class="btn">Request Booking</a>
-                                                <a href="javascript:;" class="btn gray">View Details <span class="icon icon-arrow-down"></span></a>
-                                            </div>
-                                        </div>
-                                        <div class="amenities-view">
-                                            <h2>All Amenities :</h2>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-tea"></div>
-                                                <span>Coffee Shop</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-wifi"></div>
-                                                <span>Wifi</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-parking"></div>
-                                                <span>Parking</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-airport-shuttle"></div>
-                                                <span>Airport Shuttle</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-bar"></div>
-                                                <span>Bar</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-currency-xchg"></div>
-                                                <span>Currency Exchange</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-bag"></div>
-                                                <span>Business Centre</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-road-guide"></div>
-                                                <span>Guide Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-yoga"></div>
-                                                <span>Yoga Centre</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-ayurved"></div>
-                                                <span>Ayurveda Centre</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-payment"></div>
-                                                <span>Payment Mode</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-ac"></div>
-                                                <span>A/C</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-handicape"></div>
-                                                <span>Handicap Facilities</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-doctor"></div>
-                                                <span>Doctor on Call</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-meeting"></div>
-                                                <span>Conference Hall</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-apple"></div>
-                                                <span>Health Club</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-gym"></div>
-                                                <span>Gym</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-flower"></div>
-                                                <span>Florist on Request</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-swimming"></div>
-                                                <span>Swimming Pool</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-spoon"></div>
-                                                <span>Restaurant</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-massage-center"></div>
-                                                <span>Massage Centre</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-steam-bath"></div>
-                                                <span>Steam Sauna</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-shirt"></div>
-                                                <span>Laundry Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-spa"></div>
-                                                <span>Spa</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-beauty-saloon"></div>
-                                                <span>Beauty Salon</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-sun-bed"></div>
-                                                <span>Sun Beds</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-room-service"></div>
-                                                <span>Room Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-taxi"></div>
-                                                <span>Taxi Service</span>
-                                            </div>
-                                        </div>
-                                        <div class="modal fade modal-vcenter" id="contactModal2" tabindex="-1" role="dialog" >
-                                            <div class="modal-dialog contactvendor-popup" role="document">
-                                                <div class="modal-content">
-                                                    <div class="close-icon" aria-label="Close" data-dismiss="modal" ><img src="images/close-icon.png" alt=""></div>
-                                                    <h1>Mariom Banquet</h1>
-                                                    <div class="note">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
-                                                    <div class="row">   
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="First Name">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Last Name ">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Email ID">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Phone Number">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="input-slide">
-                                                                <textarea placeholder="Message"></textarea>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="submit-slide">
-                                                                <input type="submit" value="Send" class="btn">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="venues-slide">
-                                        <div class="img"><img src="images/property-img/venues-img3.jpg" alt=""></div>
+                                        </div> 
+
+
+                                        <!--  Derde leverancier --> 
+                                                    <div class="venues-slide first">
+                                        <div class="img"><img src="images/property-img/huisterduin.jpeg" alt="" style="height: 210px; width: 260px;"></div>
                                         <div class="text">
-                                            <h3>De Koning zalenverhuur </h3>
-                                            <div class="address">Roland Holststraat 5 - Noordwijk, Nederland</div>
-                                            <div class="reviews">3.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div>
+                                            <h3>Huis ter Duin</h3>
+                                            <div class="address">Huis ter Duinstraat 1 - Noordwijk, Nederland</div>
+                                           <!--  <div class="reviews">3.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div> -->
                                             <div class="outher-info">
-                                                <div class="info-slide first">
+                                                <div class="info-slide first" style="padding-right: 25px;">
                                                     <label>Seating Capacity</label>
                                                     <span>20 - 160</span>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Price Range</label>
-                                                    <span>$ 5100 <small>(Onwards)</small></span>
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Prijzen</label>
+                                                    <span>$ 1000 <small>(Vanaf)</small></span>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Hotel Star Rating</label>
-                                                    <div class="star">
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Onze waardering</label>
+                                                    <div class="star" style="width: 105px;">
                                                         <div class="fill" style="width:61%;"></div>
                                                     </div>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Min. Booking Amount</label>
-                                                    <span>$ 1000 <small>(Onwards)</small></span>
-                                                </div>
+                                                  <div class="button" style="display: inline-block; padding-left: 25px; padding-top: 5px; background: none;">
+                                                <a href="#" class="btn">Meer info</a>
+                                                
                                             </div>
-                                            <div class="outher-link">
+                                            </div>
+                                            <div class="outher-link" style="margin-bottom: 30px;">
                                                 <ul>
-                                                    <li><a href="#"><span class="icon icon-calander-check"></span>Check Availability</a></li>
-                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal3"><span class="icon icon-phone"></span>Contact Vendor</a></li>
-                                                    <li><a href="#"><span class="icon icon-heart"></span>Add to Wishlist</a></li>
-                                                    <li><a href="#"><span class="icon icon-location-1"></span>See on Map</a></li>
+                                                    <li><a href="#"><span class="icon icon-calander-check"></span>Bekijk beschikbaarheid</a></li>
+                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal1"><span class="icon icon-phone"></span>Contact Vendor</a></li>
+                                                    <li><a href="#"><span class="icon icon-heart"></span>Mijn Favoriet</a></li>
+                                                    <li style="padding-right: 17px;"><a href="#"><span class="icon icon-location-1"></span>Google Maps</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="button">
-                                                <a href="#" class="btn">Book Now</a>
-                                                <a href="javascript:;" class="btn gray">View Details <span class="icon icon-arrow-down"></span></a>
-                                            </div>
-                                        </div>
-                                        <div class="amenities-view">
-                                            <h2>All Amenities :</h2>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-tea"></div>
-                                                <span>Coffee Shop</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-wifi"></div>
-                                                <span>Wifi</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-parking"></div>
-                                                <span>Parking</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-airport-shuttle"></div>
-                                                <span>Airport Shuttle</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-bar"></div>
-                                                <span>Bar</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-currency-xchg"></div>
-                                                <span>Currency Exchange</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-bag"></div>
-                                                <span>Business Centre</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-road-guide"></div>
-                                                <span>Guide Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-yoga"></div>
-                                                <span>Yoga Centre</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-ayurved"></div>
-                                                <span>Ayurveda Centre</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-payment"></div>
-                                                <span>Payment Mode</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-ac"></div>
-                                                <span>A/C</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-handicape"></div>
-                                                <span>Handicap Facilities</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-doctor"></div>
-                                                <span>Doctor on Call</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-meeting"></div>
-                                                <span>Conference Hall</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-apple"></div>
-                                                <span>Health Club</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-gym"></div>
-                                                <span>Gym</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-flower"></div>
-                                                <span>Florist on Request</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-swimming"></div>
-                                                <span>Swimming Pool</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-spoon"></div>
-                                                <span>Restaurant</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-massage-center"></div>
-                                                <span>Massage Centre</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-steam-bath"></div>
-                                                <span>Steam Sauna</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-shirt"></div>
-                                                <span>Laundry Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-spa"></div>
-                                                <span>Spa</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-beauty-saloon"></div>
-                                                <span>Beauty Salon</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-sun-bed"></div>
-                                                <span>Sun Beds</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-room-service"></div>
-                                                <span>Room Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-taxi"></div>
-                                                <span>Taxi Service</span>
-                                            </div>
-                                        </div>
-                                        <div class="modal fade modal-vcenter" id="contactModal3" tabindex="-1" role="dialog">
-                                            <div class="modal-dialog contactvendor-popup" role="document">
-                                                <div class="modal-content">
-                                                    <div class="close-icon" aria-label="Close" data-dismiss="modal" ><img src="images/close-icon.png" alt=""></div>
-                                                    <h1>Mariom Banquet</h1>
-                                                    <div class="note">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
-                                                    <div class="row">   
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="First Name">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Last Name ">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Email ID">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Phone Number">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="input-slide">
-                                                                <textarea placeholder="Message"></textarea>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="submit-slide">
-                                                                <input type="submit" value="Send" class="btn">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="venues-slide last">
-                                        <div class="img"><img src="images/property-img/venues-img4.jpg" alt=""></div>
+                                        </div> 
+                                    <!--  Vierde leverancier --> 
+                                        <div class="venues-slide first">
+                                        <div class="img"><img src="images/property-img/huisterduin.jpeg" alt="" style="height: 210px; width: 260px;"></div>
                                         <div class="text">
-                                            <h3>Hilton Berlin</h3>
-                                            <div class="address">Mohrenstrasse 30 Berlin, 10117 - Germany</div>
-                                            <div class="reviews">3.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div>
+                                            <h3>Huis ter Duin</h3>
+                                            <div class="address">Huis ter Duinstraat 1 - Noordwijk, Nederland</div>
+                                           <!--  <div class="reviews">3.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div> -->
                                             <div class="outher-info">
-                                                <div class="info-slide first">
+                                                <div class="info-slide first" style="padding-right: 25px;">
                                                     <label>Seating Capacity</label>
                                                     <span>20 - 160</span>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Price Range</label>
-                                                    <span>$ 5100 <small>(Onwards)</small></span>
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Prijzen</label>
+                                                    <span>$ 1000 <small>(Vanaf)</small></span>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Hotel Star Rating</label>
-                                                    <div class="star">
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Onze waardering</label>
+                                                    <div class="star" style="width: 105px;">
                                                         <div class="fill" style="width:61%;"></div>
                                                     </div>
                                                 </div>
-                                                <div class="info-slide">
-                                                    <label>Min. Booking Amount</label>
-                                                    <span>$ 1000 <small>(Onwards)</small></span>
-                                                </div>
+                                                  <div class="button" style="display: inline-block; padding-left: 25px; padding-top: 5px; background: none;">
+                                                <a href="#" class="btn">Meer info</a>
+                                                
                                             </div>
-                                            <div class="outher-link">
+                                            </div>
+                                            <div class="outher-link" style="margin-bottom: 30px;">
                                                 <ul>
-                                                    <li><a href="#"><span class="icon icon-calander-check"></span>Check Availability</a></li>
-                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal4"><span class="icon icon-phone"></span>Contact Vendor</a></li>
-                                                    <li><a href="#"><span class="icon icon-heart"></span>Add to Wishlist</a></li>
-                                                    <li><a href="#"><span class="icon icon-location-1"></span>See on Map</a></li>
+                                                    <li><a href="#"><span class="icon icon-calander-check"></span>Bekijk beschikbaarheid</a></li>
+                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal1"><span class="icon icon-phone"></span>Contact Vendor</a></li>
+                                                    <li><a href="#"><span class="icon icon-heart"></span>Mijn Favoriet</a></li>
+                                                    <li style="padding-right: 17px;"><a href="#"><span class="icon icon-location-1"></span>Google Maps</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="button">
-                                                <a href="#" class="btn">Book Now</a>
-                                                <a href="javascript:;" class="btn gray">View Details <span class="icon icon-arrow-down"></span></a>
-                                            </div>
-                                        </div>
-                                        <div class="amenities-view">
-                                            <h2>All Amenities :</h2>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-tea"></div>
-                                                <span>Coffee Shop</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-wifi"></div>
-                                                <span>Wifi</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-parking"></div>
-                                                <span>Parking</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-airport-shuttle"></div>
-                                                <span>Airport Shuttle</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-bar"></div>
-                                                <span>Bar</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-currency-xchg"></div>
-                                                <span>Currency Exchange</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-bag"></div>
-                                                <span>Business Centre</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-road-guide"></div>
-                                                <span>Guide Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-yoga"></div>
-                                                <span>Yoga Centre</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-ayurved"></div>
-                                                <span>Ayurveda Centre</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-payment"></div>
-                                                <span>Payment Mode</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-ac"></div>
-                                                <span>A/C</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-handicape"></div>
-                                                <span>Handicap Facilities</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-doctor"></div>
-                                                <span>Doctor on Call</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-meeting"></div>
-                                                <span>Conference Hall</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-apple"></div>
-                                                <span>Health Club</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-gym"></div>
-                                                <span>Gym</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-flower"></div>
-                                                <span>Florist on Request</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-swimming"></div>
-                                                <span>Swimming Pool</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-spoon"></div>
-                                                <span>Restaurant</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-massage-center"></div>
-                                                <span>Massage Centre</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-steam-bath"></div>
-                                                <span>Steam Sauna</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-shirt"></div>
-                                                <span>Laundry Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-spa"></div>
-                                                <span>Spa</span>
-                                            </div>
-                                            <div class="amenities-box disabled">
-                                                <div class="icon icon-beauty-saloon"></div>
-                                                <span>Beauty Salon</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-sun-bed"></div>
-                                                <span>Sun Beds</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-room-service"></div>
-                                                <span>Room Service</span>
-                                            </div>
-                                            <div class="amenities-box">
-                                                <div class="icon icon-taxi"></div>
-                                                <span>Taxi Service</span>
-                                            </div>
-                                        </div>
-                                        <div class="modal fade modal-vcenter" id="contactModal4" tabindex="-1" role="dialog" >
-                                            <div class="modal-dialog contactvendor-popup" role="document">
-                                                <div class="modal-content">
-                                                    <div class="close-icon" aria-label="Close" data-dismiss="modal" ><img src="images/close-icon.png" alt=""></div>
-                                                    <h1>Mariom Banquet</h1>
-                                                    <div class="note">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
-                                                    <div class="row">   
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="First Name">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Last Name ">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Email ID">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="input-slide">
-                                                                <input type="text" placeholder="Phone Number">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="input-slide">
-                                                                <textarea placeholder="Message"></textarea>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="submit-slide">
-                                                                <input type="submit" value="Send" class="btn">
-                                                            </div>
-                                                        </div>
+                                        </div> 
+
+                                    <!--  Vijfde leverancier --> 
+                                        <div class="venues-slide first">
+                                        <div class="img"><img src="images/property-img/huisterduin.jpeg" alt="" style="height: 210px; width: 260px;"></div>
+                                        <div class="text">
+                                            <h3>Huis ter Duin</h3>
+                                            <div class="address">Huis ter Duinstraat 1 - Noordwijk, Nederland</div>
+                                           <!--  <div class="reviews">3.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div> -->
+                                            <div class="outher-info">
+                                                <div class="info-slide first" style="padding-right: 25px;">
+                                                    <label>Seating Capacity</label>
+                                                    <span>20 - 160</span>
+                                                </div>
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Prijzen</label>
+                                                    <span>$ 1000 <small>(Vanaf)</small></span>
+                                                </div>
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Onze waardering</label>
+                                                    <div class="star" style="width: 105px;">
+                                                        <div class="fill" style="width:61%;"></div>
                                                     </div>
                                                 </div>
+                                                  <div class="button" style="display: inline-block; padding-left: 25px; padding-top: 5px; background: none;">
+                                                <a href="#" class="btn">Meer info</a>
+                                                
+                                            </div>
+                                            </div>
+                                            <div class="outher-link" style="margin-bottom: 30px;">
+                                                <ul>
+                                                    <li><a href="#"><span class="icon icon-calander-check"></span>Bekijk beschikbaarheid</a></li>
+                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal1"><span class="icon icon-phone"></span>Contact Vendor</a></li>
+                                                    <li><a href="#"><span class="icon icon-heart"></span>Mijn Favoriet</a></li>
+                                                    <li style="padding-right: 17px;"><a href="#"><span class="icon icon-location-1"></span>Google Maps</a></li>
+                                                </ul>
+                                            </div>
+                                        </div> 
+
+
+                                    <!--  Zesde leverancier --> 
+                                        <div class="venues-slide first">
+                                        <div class="img"><img src="images/property-img/huisterduin.jpeg" alt="" style="height: 210px; width: 260px;"></div>
+                                        <div class="text">
+                                            <h3>Huis ter Duin</h3>
+                                            <div class="address">Huis ter Duinstraat 1 - Noordwijk, Nederland</div>
+                                           <!--  <div class="reviews">3.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div> -->
+                                            <div class="outher-info">
+                                                <div class="info-slide first" style="padding-right: 25px;">
+                                                    <label>Seating Capacity</label>
+                                                    <span>20 - 160</span>
+                                                </div>
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Prijzen</label>
+                                                    <span>$ 1000 <small>(Vanaf)</small></span>
+                                                </div>
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Onze waardering</label>
+                                                    <div class="star" style="width: 105px;">
+                                                        <div class="fill" style="width:61%;"></div>
+                                                    </div>
+                                                </div>
+                                                  <div class="button" style="display: inline-block; padding-left: 25px; padding-top: 5px; background: none;">
+                                                <a href="#" class="btn">Meer info</a>
+                                                
+                                            </div>
+                                            </div>
+                                            <div class="outher-link" style="margin-bottom: 30px;">
+                                                <ul>
+                                                    <li><a href="#"><span class="icon icon-calander-check"></span>Bekijk beschikbaarheid</a></li>
+                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal1"><span class="icon icon-phone"></span>Contact Vendor</a></li>
+                                                    <li><a href="#"><span class="icon icon-heart"></span>Mijn Favoriet</a></li>
+                                                    <li style="padding-right: 17px;"><a href="#"><span class="icon icon-location-1"></span>Google Maps</a></li>
+                                                </ul>
+                                            </div>
+                                        </div> 
+
+                                        <!--  Zevende leverancier --> 
+                                        <div class="venues-slide first">
+                                        <div class="img"><img src="images/property-img/huisterduin.jpeg" alt="" style="height: 210px; width: 260px;"></div>
+                                        <div class="text">
+                                            <h3>Huis ter Duin</h3>
+                                            <div class="address">Huis ter Duinstraat 1 - Noordwijk, Nederland</div>
+                                           <!--  <div class="reviews">3.5 <div class="star"><div class="fill" style="width:70%;"></div></div>reviews</div> -->
+                                            <div class="outher-info">
+                                                <div class="info-slide first" style="padding-right: 25px;">
+                                                    <label>Seating Capacity</label>
+                                                    <span>20 - 160</span>
+                                                </div>
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Prijzen</label>
+                                                    <span>$ 1000 <small>(Vanaf)</small></span>
+                                                </div>
+                                                <div class="info-slide" style="padding-right: 25px;">
+                                                    <label>Onze waardering</label>
+                                                    <div class="star" style="width: 105px;">
+                                                        <div class="fill" style="width:61%;"></div>
+                                                    </div>
+                                                </div>
+                                                  <div class="button" style="display: inline-block; padding-left: 25px; padding-top: 5px; background: none;">
+                                                <a href="#" class="btn">Meer info</a>
+                                                
+                                            </div>
+                                            </div>
+                                            <div class="outher-link" style="margin-bottom: 30px;">
+                                                <ul>
+                                                    <li><a href="#"><span class="icon icon-calander-check"></span>Bekijk beschikbaarheid</a></li>
+                                                    <li><a href="javascript:;" data-toggle="modal" data-target="#contactModal1"><span class="icon icon-phone"></span>Contact Vendor</a></li>
+                                                    <li><a href="#"><span class="icon icon-heart"></span>Mijn Favoriet</a></li>
+                                                    <li style="padding-right: 17px;"><a href="#"><span class="icon icon-location-1"></span>Google Maps</a></li>
+                                                </ul>
                                             </div>
                                         </div>
-                                    </div>
                                     <div class="pagination">
                                         <ul>
                                             <li class="prev disabled"><a href="#">Prev</a></li>
