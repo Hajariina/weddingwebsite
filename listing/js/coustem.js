@@ -293,6 +293,7 @@ $(".venues-slide .btn.gray").on('click',function(){
 	}
 });
 $("#setUp_select").selectbox();
+$("#setUp_select2").selectbox();
 
 // Search Bar Fiexd 
 // $(window).on('scroll', function(){
