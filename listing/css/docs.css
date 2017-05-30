@@ -595,7 +595,7 @@ ul.customList li:before{font-family:"untitled-font-20" !important;font-style:nor
 .search-resultPage .fiexd-nav ul li a:hover {background:#f15b22; }
 .search-resultPage .fiexd-nav ul li a:hover .icon {color:#fff;}
 .search-resultPage .fiexd-nav ul li a:hover .text {color:#fff;}
-.search-resultPage .fiexd-nav ul li.active a {background:#f15b22; }
+.search-resultPage .fiexd-nav ul li.active a {background:#e64e71; }
 .search-resultPage .fiexd-nav ul li.active a .icon {color:#fff;}
 .search-resultPage .fiexd-nav ul li.active a .text {color:#fff;}
 
