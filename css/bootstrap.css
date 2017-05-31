@@ -3021,10 +3021,10 @@ select[multiple].input-lg {
       -ms-user-select: none;
           user-select: none;
   background-image: none;
-  border:solid 1px #f15b22;
+  border:solid 1px #e64e71;
   border-radius: 3px;
-  box-shadow:inset 0px 1px 0px #e0a97f;
-  background:#f15b22;
+  box-shadow:inset 0px 1px 0px #e64e71;
+  background:#e64e71;
   color:#fff; 
   -moz-transition:all 1s ease;
   -ms-transition:all 1s ease;
@@ -3044,7 +3044,7 @@ select[multiple].input-lg {
 .btn.focus {
   color: #fff;
   text-decoration: none;
-  background:#e7480b;
+  background:#e64e71;
 }
 .btn:active,
 .btn.active {
